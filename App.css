@@ -1,0 +1,134 @@
+/* Base styles (for mobile-first design) */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 10px;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.App {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+button {
+  margin: 10px;
+  padding: 10px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button:disabled {
+  background-color: #ccc;
+}
+
+input {
+  padding: 10px;
+  width: 80%;
+  margin-bottom: 10px;
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+.QRCodeDisplay {
+  margin-top: 20px;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+}
+
+@media (min-width: 768px) {
+  /* Styles for tablets and small screens */
+  .App {
+    width: 80%;
+    padding: 20px;
+  }
+
+  button {
+    padding: 15px;
+    font-size: 18px;
+  }
+
+  input {
+    font-size: 18px;
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 32px;
+  }
+
+  h2 {
+    font-size: 24px;
+  }
+
+  ul li {
+    font-size: 18px;
+  }
+
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1024px) {
+  /* Styles for desktop and larger screens */
+  .App {
+    width: 60%;
+    padding: 30px;
+    background-color: white;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+
+  button {
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  input {
+    font-size: 20px;
+    width: 50%;
+  }
+
+  h1 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 28px;
+  }
+
+  ul li {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 18px;
+  }
+}
